@@ -179,3 +179,10 @@ details p{padding:.5rem 0 .3rem;max-width:85ch;color:var(--muted)}
   .report .benchmark h3{font-size:10pt;margin:0}
   .report .population h3{margin:3mm 0 1mm}.report .population p{line-height:1.55}
 }
+
+.strata{border-bottom:1px solid #dce4e3;padding:.7rem 0}
+.strata summary{cursor:pointer;font-weight:600;padding:.45rem 0}
+.group-table caption{text-align:left;color:var(--muted);padding:.55rem;font-size:.92rem}
+.group-table th,.group-table td{vertical-align:top;font-variant-numeric:tabular-nums}
+.group-table td{white-space:nowrap}.group-table thead th{white-space:normal}
+@media(max-width:720px){.mast-row{flex-wrap:wrap}.mast nav{display:flex;order:3;width:100%;justify-content:space-between}.mast .language{margin-left:auto}.group-table{min-width:610px}}
